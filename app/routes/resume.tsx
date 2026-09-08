@@ -95,7 +95,7 @@ const Resume = () => {
                 suggestions={feedback.ATS.tips || []}
               />
 
-              {/* <Details feedback={feedback} /> */}
+              <Details feedback={feedback} />
             </div>
           ) : (
             <img src="/images/resume-scan-2.gif" className="w-full" />
